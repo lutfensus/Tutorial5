@@ -1,3 +1,2 @@
 # Very cool Music Library app
-## That was done in last moment
-### As always
+###### Sorry for being late 

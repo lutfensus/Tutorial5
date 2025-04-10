@@ -5,8 +5,8 @@ public class Program {
                 "John Smith");
         //MusicLibrary coolLibrary = new MusicLibrary("Brazilian Grooves",
          //       "tufi");
-        MusicLibrary midLibrary = new MusicLibrary("Rock Collection",
-                "someone");
+        //MusicLibrary midLibrary = new MusicLibrary("Rock Collection",
+        //        "someone");
 
         //coolLibrary.displayTracks();
 // Add tracks to the library
@@ -23,13 +23,10 @@ public class Program {
         myLibrary.createPlaylist("Party");
         //myLibrary.createPlaylist("Party");
 // Add tracks to playlists
-        myLibrary.addTrackToPlaylist("Queen - Bohemian Rhapsody",
-                "Favorites");
-        myLibrary.addTrackToPlaylist("Pink Floyd - Comfortably Numb",
-                "Favorites");
+        myLibrary.addTrackToPlaylist("Queen - Bohemian Rhapsody", "Favorites");
+        myLibrary.addTrackToPlaylist("Pink Floyd - Comfortably Numb", "Favorites");
         myLibrary.addTrackToPlaylist("AC/DC - Back in Black", "Party");
-        myLibrary.addTrackToPlaylist("Metallica - Nothing Else Matters",
-                "Party");
+        myLibrary.addTrackToPlaylist("Metallica - Nothing Else Matters", "Party");
 // Display all playlists
         //myLibrary.displayAllPlaylists();
 // Display the contents of the "Favorites" playlist
