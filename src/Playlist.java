@@ -1,12 +1,12 @@
+import java.util.ArrayList;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Playlist {
     private String name;
     private ArrayList<String> tracks;
 
-    public PlayList(String name) {
+    public Playlist(String name) {
         this.name = name;
-
         this.tracks = new ArrayList<>();
     }
 
@@ -24,5 +24,16 @@ public class Playlist {
             System.out.println(track);
 
         }
+    }
+
+    public void addTrack(String track) {
+        tracks.add(track);
+    }
+    public void removeTrack(String track) {
+        tracks.remove(track);
+
+    }
+
+
 
 }
